@@ -86,4 +86,47 @@ let Transactions = [
     img : 'images/customer4.jpg'},
 ]
 
-export {xAxisData , newUser ,Transactions} ;
+let userRows = [
+    {
+    id : 1 ,
+    username : 'Sahar Azizi',
+    avatar:'images/users4.jpg',
+    status : 'active',
+    transaction : "$140",
+    email : 'Sahar@gmail.com'
+ },
+    {
+    id : 2 ,
+    username : 'Aref Aghasi',
+    avatar:'images/users.jpg',
+    status : 'non-active',
+    transaction : "$120",
+    email : 'Aref@gmail.com'
+ },
+    {
+    id : 3 ,
+    username : 'Mehdi hoseinzadeh',
+    avatar:'images/users2.jpg',
+    status : 'active',
+    transaction : "$79.5",
+    email : 'Mehdi@gmail.com'
+ },
+    {
+    id : 4 ,
+    username : 'Negar Alipour',
+    avatar:'images/users5.jpg',
+    status : 'active',
+    transaction : "$108",
+    email : 'Negar@gmail.com'
+ },
+    {
+    id : 5 ,
+    username : 'Radin Falah',
+    avatar:'images/users3.jpg',
+    status : 'active',
+    transaction : "$55.78",
+    email : 'Radin@gmail.com'
+ },
+]
+
+export {xAxisData , newUser ,Transactions,userRows} ;
