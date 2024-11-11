@@ -72,7 +72,7 @@ export default function UserLIst() {
         <DataGrid 
         rows={userDatas}
         columns={colums}
-        pageSize={4}
+        pageSize={6}
         disableSelectionOnClick
         />
     </div>

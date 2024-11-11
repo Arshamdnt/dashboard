@@ -127,6 +127,72 @@ let userRows = [
     transaction : "$55.78",
     email : 'Radin@gmail.com'
  },
+    {
+    id : 6 ,
+    username : 'Armin Ghafouri',
+    avatar:'images/user6.jpg',
+    status : 'non-active',
+    transaction : "$122.19",
+    email : 'Armin@gmail.com'
+ },
+    {
+    id : 7 ,
+    username : 'Mobina Nezamdoost',
+    avatar:'images/user7.jpg',
+    status : 'active',
+    transaction : "$64.5",
+    email : 'Mobina@gmail.com'
+ },
+    {
+    id : 8 ,
+    username : 'Zahra Lotfi',
+    avatar:'images/user8.jpg',
+    status : 'active',
+    transaction : "$53",
+    email : 'Zahra@gmail.com'
+ },
+    {
+    id : 9 ,
+    username : 'Farhad jamali',
+    avatar:'images/user9.jpg',
+    status : 'active',
+    transaction : "$77",
+    email : 'farhad@gmail.com'
+ },
+    
 ]
 
-export {xAxisData , newUser ,Transactions,userRows} ;
+let Products = [
+    {
+        id : 1,
+        title : 'Asus',
+        avatar : 'images/asus.jpg',
+        price : 829
+    },
+    {
+        id : 2,
+        title : 'Acer',
+        avatar : 'images/acer.jpg',
+        price : 700
+    },
+    {
+        id : 3,
+        title : 'HP',
+        avatar : 'images/hp.jpg',
+        price : 644
+    },
+    {
+        id : 4,
+        title : 'Dell',
+        avatar : 'images/dell.jpg',
+        price : 580
+    },
+]
+
+let ProductsData = [
+    {name : "Jan",sales :4300},
+    {name : "Feb",sales :2850},
+    {name : "Mar",sales :5130}
+]
+
+export {xAxisData , newUser ,Transactions,userRows,Products,ProductsData} ;

@@ -9,7 +9,7 @@ import BarChartIcon from "@mui/icons-material/BarChart";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import DynamicFeedIcon from "@mui/icons-material/DynamicFeed";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-import MessageOutlinedIcon from "@mui/icons-material/MessageOutlined";
+import ReportGmailerrorredOutlinedIcon from '@mui/icons-material/ReportGmailerrorredOutlined';
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ReportIcon from "@mui/icons-material/WorkOutline";
 
@@ -34,10 +34,7 @@ export default function Sidebar() {
               <TimelineIcon className="sidebarIcon" />
               Analytics
             </li>
-            <li className="sidebarListItem">
-              <TrendingUpIcon className="sidebarIcon" />
-              Sales
-            </li>
+
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -49,12 +46,7 @@ export default function Sidebar() {
                 Users
               </li>
             </Link>
-            <Link to="/newUser" className="link">
-              <li className="sidebarListItem">
-                <PermIdentityIcon className="sidebarIcon" />
-                New User
-              </li>
-            </Link>
+
             <Link to="/products" className="link">
               <li className="sidebarListItem">
                 <StorefrontIcon className="sidebarIcon" />
@@ -66,8 +58,8 @@ export default function Sidebar() {
               Transactions
             </li>
             <li className="sidebarListItem">
-              <BarChartIcon className="sidebarIcon" />
-              Reports
+              <TrendingUpIcon className="sidebarIcon" />
+              Sales
             </li>
           </ul>
         </div>
@@ -95,12 +87,9 @@ export default function Sidebar() {
               <WorkOutlineIcon className="sidebarIcon" />
               Manage
             </li>
+
             <li className="sidebarListItem">
-              <TimelineIcon className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <ReportIcon className="sidebarIcon" />
+              <ReportGmailerrorredOutlinedIcon className="sidebarIcon" />
               Reports
             </li>
           </ul>
