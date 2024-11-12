@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Feature.css"
 import ArrowDownwardOutlinedIcon from '@mui/icons-material/ArrowDownwardOutlined';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 const Feature = () => {
+
+        
     return (
         <div className="feature">
             <div className='FeatureItem'>
-                <span className='Featuretitle'>Revanue</span>
+                <span className='Featuretitle'>Revenue</span>
                 <div className='FeatureContainer'>
                  <span className='FeatureMoney'>$2,415</span>
                     <span className='FeatureRate'>

@@ -195,4 +195,25 @@ let ProductsData = [
     {name : "Mar",sales :5130}
 ]
 
-export {xAxisData , newUser ,Transactions,userRows,Products,ProductsData} ;
+const userData = [
+    { name: 'تهران ', latitude: 35.6892, longitude: 51.3890, views: 2500 },
+    { name: 'مشهد ', latitude: 36.2605, longitude: 59.6168, views: 1800 },
+    { name: 'اصفهان ', latitude: 32.6581, longitude: 51.6680, views: 1200 },
+    { name: 'شیراز ', latitude: 29.5912, longitude: 52.5837, views: 900 },
+    { name: 'تبریز ', latitude: 38.0962, longitude: 46.2920, views: 1300 },
+    { name: 'اهواز ', latitude: 31.3202, longitude: 48.6771, views: 1500 },
+    { name: 'رشت ', latitude: 37.2830, longitude: 49.5911, views: 800 },
+    { name: 'کرج ', latitude: 35.8324, longitude: 50.9915, views: 700 },
+    { name: 'قم ', latitude: 34.6399, longitude: 50.8756, views: 600 },
+    { name: 'زاهدان ', latitude: 29.4965, longitude: 60.8650, views: 500 },
+    { name: 'کاشان ', latitude: 33.9910, longitude: 51.4380, views: 400 },
+    { name: 'یاسوج ', latitude: 30.1810, longitude: 51.5920, views: 550 },
+    { name: 'بندر عباس ', latitude: 27.1900, longitude: 56.2840, views: 450 },
+    { name: 'ارومیه ', latitude: 37.5500, longitude: 45.0700, views: 350 },
+    { name: 'گرگان ', latitude: 37.3785, longitude: 57.0779, views: 300 },
+    { name: 'بیرجند ', latitude: 32.8597, longitude: 59.2196, views: 650 },
+    { name: 'یزد ', latitude: 31.8974, longitude: 54.3583, views: 750 },
+    { name: 'کرمان ', latitude: 30.2832, longitude: 57.0780, views: 850 },
+  ];
+
+export {xAxisData , newUser ,Transactions,userRows,Products,ProductsData,userData,} ;
